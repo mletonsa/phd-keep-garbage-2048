@@ -16,11 +16,12 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left; }
+  float: left; 
+  margin-bottom: 30px;}
 
 @-webkit-keyframes move-up {
   0% {

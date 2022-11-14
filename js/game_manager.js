@@ -258,6 +258,10 @@ GameManager.prototype.move = function (direction) {
 
   if (moved) {
     this.addRandomTile();
+	
+	if ((this.garbCount == 0) && (this.maxTile > 128)) {
+      this.over = true; // Game over!	
+	}
 
     if (!this.movesAvailable()) {
       this.over = true; // Game over!
